@@ -1,0 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	background-color: #f6b617;
+	color: #25232c;
+	overflow-x: hidden;
+	font-family: 'Shadows Into Light Two', cursive, sans-serif;
+	font-size: 7.5vmin;
+	text-align: center;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	padding: 2em;
+	font-size: 3rem;
+}
