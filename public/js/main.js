@@ -30,7 +30,7 @@ $(document).ready(function(){
 				console.log(data);
 				// Extract error message
 				try {
-					if (data.Payload != null){
+					if (data.Payload != null && data.Payload != "null"){
 						// Fail
 						$("#note").text("It just rang! Wait!");
 					} else {
