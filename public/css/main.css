@@ -9,7 +9,7 @@ body {
 	background-color: #A4A9AD;
 	color: #23001E;
 	overflow-x: hidden;
-	font-family: 'Shadows Into Light Two', cursive, sans-serif;
+	font-family: 'Cinzel', serif;
 	font-size: 7.5vmin;
 	text-align: center;
 }
@@ -31,6 +31,7 @@ button {
 	border: none;
 	border-radius: 2em;
 	outline: none!important;
+	font-family: 'Cinzel', serif;
 }
 button:hover {
 	opacity: 0.8;
