@@ -1,14 +1,16 @@
 $(document).ready(function(){
 	"use strict";
 
+	const note = $("#note");
+
 	function failDoorBell(){
-		$("#note").text("Sorry, door bell is broken...");
+		note.text("Sorry, door bell is broken...");
 	}
 
 	$("#doorbell").click(function(e){
 		e.preventDefault();
 
-		$("#note").text("Ringing...");
+		note.text("Ringing...");
 
 		/* global AWS */
 		AWS.config.update({region: "us-east-1"});
@@ -32,10 +34,10 @@ $(document).ready(function(){
 				try {
 					if (data.Payload != null && data.Payload != "null"){
 						// Fail
-						$("#note").text("It just rang! Wait!");
+						note.text("It just rang! Wait!");
 					} else {
 						// Success
-						$("#note").text("I'M COMING!");
+						note.text("I'M COMING!");
 					}
 				} catch (e){
 					// Fail
