@@ -1,6 +1,6 @@
-# Doorbell.Standen.Link
+# Door.Standen.Link
 
-Ring the door bell.
+[Ring the door bell.](https://door.standen.link)
 
 ## Credits
 
