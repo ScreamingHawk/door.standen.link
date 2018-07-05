@@ -6,8 +6,8 @@ html, body {
 }
 
 body {
-	background-color: #f6b617;
-	color: #25232c;
+	background-color: #A4A9AD;
+	color: #23001E;
 	overflow-x: hidden;
 	font-family: 'Shadows Into Light Two', cursive, sans-serif;
 	font-size: 7.5vmin;
@@ -26,4 +26,12 @@ main {
 button {
 	padding: 2em;
 	font-size: 3rem;
+	cursor: pointer;
+	background-color: #FFBA49;
+	border: none;
+	border-radius: 2em;
+	outline: none!important;
+}
+button:hover {
+	opacity: 0.8;
 }
